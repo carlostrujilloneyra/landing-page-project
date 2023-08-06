@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+:root{
+	--greenLight: #014E56;
+	--greenDark: #012F34;
+	--redLigth: #F67E7E;
+	--colorWhite: #fff;
+}
+
 html{
 	font-size: 10px;
 	font-family: 'Livvic', sans-serif;
@@ -11,4 +18,32 @@ html{
 
 body{
 	min-height: 100vh;
+}
+
+.container{
+	max-width: 135rem;
+	width: auto;
+}
+
+/* Estilos para tipografías generales */
+h1{
+	color: var(--colorWhite);
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: .4rem;
+
+	@media (width >= 600px){
+		font-size: 6.4rem;
+	}
+
+	@media (width >= 1024px){
+		font-size: 10rem;
+	}
+
+}
+
+p{
+	color: var(--colorWhite);
+	font-size: 1.5rem;
+	line-height: 1.3;
 }
