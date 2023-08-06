@@ -26,7 +26,7 @@ body{
 }
 
 /* Estilos para tipografías generales */
-h1{
+/* h1{
 	color: var(--colorWhite);
 	font-size: 4rem;
 	font-weight: 700;
@@ -46,4 +46,8 @@ p{
 	color: var(--colorWhite);
 	font-size: 1.5rem;
 	line-height: 1.3;
+} */
+
+p{
+	color: #000;
 }
