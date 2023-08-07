@@ -1,8 +1,9 @@
+import './Button.css';
 
 export const Button = () => {
 	return (
 		<>
-			<button>contact us</button>
+			<button className='button-header'>contact us</button>
 		</>
 	)
 }

@@ -1,0 +1,12 @@
+
+.logo-header{
+	cursor: pointer;
+	width: 12.8rem;
+	height: 3.2rem;
+
+	@media (width >= 1024px){
+		width: 16rem;
+		height: 4rem;
+	}
+
+}

@@ -5,8 +5,9 @@
 }
 
 :root{
-	--greenLight: #014E56;
-	--greenDark: #012F34;
+	--lightGreen: #014E56;
+	--darkGreen: #002529;
+	--sacramentoGreen: #012F34;
 	--redLigth: #F67E7E;
 	--colorWhite: #fff;
 }
@@ -22,11 +23,11 @@ body{
 
 .container{
 	max-width: 135rem;
-	width: auto;
+	margin: auto;
 }
 
 /* Estilos para tipografías generales */
-/* h1{
+h1{
 	color: var(--colorWhite);
 	font-size: 4rem;
 	font-weight: 700;
@@ -46,8 +47,5 @@ p{
 	color: var(--colorWhite);
 	font-size: 1.5rem;
 	line-height: 1.3;
-} */
-
-p{
-	color: #000;
 }
+
