@@ -1,0 +1,45 @@
+.container-benefit-grid{
+	display: grid;
+	justify-items: center;
+	column-gap: 2.4rem;
+
+	@media (width >= 600px){
+		justify-items: flex-start;
+		grid-template-columns: 7.5rem 1fr;
+	}
+
+}
+
+img{
+	width: 7.2rem;
+	height: 7.2rem;
+	margin-bottom: 2rem;
+
+	@media (width >= 600px){
+		margin-bottom: 0;
+	}
+}
+
+
+h3{
+	color: var(--redLigth);
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 1.2rem;
+	text-align: center;
+
+	@media (width >= 600px){
+		text-align: start;
+		margin-bottom: 1.6rem;
+	}
+}
+
+p{
+	font-weight: 600;
+	text-align: center;
+
+	@media (width >= 600px){
+		text-align: start;
+	}
+
+}

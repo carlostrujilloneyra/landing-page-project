@@ -1,9 +1,10 @@
-import { Hero } from "../components/home"
+import { Hero, Main } from "../components/home"
 
 export const HomePage = () => {
 	return (
 		<>
 			<Hero />
+			<Main />
 		</>
 	)
 }
