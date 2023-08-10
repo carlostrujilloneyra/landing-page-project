@@ -1,0 +1,63 @@
+.employee-info{
+	position: relative;
+
+	&::before{
+		content: '';
+		position: absolute;
+		background-image: url('/assets/icon-quotes.svg');
+		width: 6.7rem;
+		height: 5.6rem;
+		top: -3.2rem;
+		left: 50%;
+		transform: translate(-50%, 1%);
+	}
+
+}
+
+.employee-info p{
+	position: relative;
+	text-align: center;
+	margin-bottom: 1.6rem;
+	z-index: 10;
+
+	@media (width >= 1024px){
+		margin-bottom: 2.4rem;
+	}
+
+}
+
+.employee-info h3{
+	color: #79C8C7;
+	font-size: 1.8rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.employee-info span{
+	color: var(--colorWhite);
+	display: block;
+	font-style: italic;
+	font-size: 1.3rem;
+	text-align: center;
+	margin-bottom: .4rem;
+}
+
+.employee-container-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image-employee{
+	outline: .2rem solid #79C8C7;
+	border-radius: 50%;
+	width: 6.2rem;
+	height: 6.2rem;
+	margin-top: 1.6rem;
+
+	@media (width >= 1024px){
+		margin-top: 2.8rem;
+	}
+
+}

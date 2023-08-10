@@ -6,7 +6,7 @@ export const Main = () => {
 	return (
 		<>
 			<main className='main container'>
-				<h2>Build & manage distributed teams like no one else.</h2>
+				<h2 className='subtitle-main'>Build & manage distributed teams like no one else.</h2>
 
 				<div className="list-benefits">
 					{
