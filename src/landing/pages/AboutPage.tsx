@@ -1,4 +1,5 @@
 import { ClientList, DirectorList, Hero } from "../components/about"
+import { FooterTop } from "../components/shared"
 
 export const AboutPage = () => {
 	return (
@@ -6,6 +7,7 @@ export const AboutPage = () => {
 			<Hero />
 			<DirectorList />
 			<ClientList />
+			<FooterTop />
 		</>
 	)
 }
