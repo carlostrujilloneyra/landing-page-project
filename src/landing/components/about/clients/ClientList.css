@@ -1,0 +1,17 @@
+.section-clients-about{
+	background-color: var(--sacramentGreen);
+	padding: 6.4rem 2.4rem;
+
+	@media (width >= 600px){
+		
+	}
+
+}
+
+.section-clients__title{
+	color: var(--colorWhite);
+}
+
+.container-grid-clients{
+	display: grid;
+}

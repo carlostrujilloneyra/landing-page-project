@@ -9,7 +9,7 @@
 
 	&::before{
 		position: absolute;
-		background-image: url('/public/assets/bg-hero-about-before.svg');
+		background-image: url('/assets/bg-hero-about-before.svg');
 		background-repeat: no-repeat;
 		content: '';
 		width: 20rem;
