@@ -1,0 +1,89 @@
+.main-about-container{
+	background-color: var(--jungleGreen);
+	padding: 8rem 2.4rem;
+	padding-bottom: 12rem;
+	overflow: hidden;
+	position: relative;
+
+	&::before{
+		content: '';
+		position: absolute;
+		background-image: url('/assets/bg-pattern-about-2-contact-1.svg');
+		background-repeat: no-repeat;
+		width: 20rem;
+		height: 20rem;
+		top: -5rem;
+		left: -15rem;
+	}
+
+	&::after{
+		content: '';
+		position: absolute;
+		background-image: url('/assets/bg-before-section-home.svg');
+		background-repeat: no-repeat;
+		width: 14.7rem;
+		height: 10rem;
+		bottom: -2rem;
+		right: 0;
+	}
+
+	@media (width >= 600px){
+		padding: 10rem 4rem;
+		padding-bottom: 16rem;
+
+		&::before{
+			top: 0;
+			left: -13rem;
+		}
+
+		&::after{
+			bottom: .2rem;
+			right: 0;
+		}
+
+	}
+
+	@media (width >= 1024px){
+		padding: 12rem 10rem;
+		padding-bottom: 17rem;
+
+		&::before{
+			top: 0;
+			left: -10rem;
+		}
+
+	}
+
+}
+
+.about-directors__subtitle{
+	color: var(--colorWhite);
+	font-size: 3.2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 3.6rem;
+	position: relative;
+
+	@media (width >= 600px){
+		margin-bottom: 4.8rem;
+	}
+
+}
+
+.about-container__directors{
+	display: grid;
+	row-gap: 4.2rem;
+
+	@media (width >= 600px){
+		grid-template-columns: repeat(2, minmax(24rem, 40rem));
+		column-gap: 1.6rem;
+		justify-content: center;
+	}
+
+	@media (width >= 1024px){
+		grid-template-columns: repeat(3, minmax(27rem, 45rem));
+		column-gap: 2.4rem;
+		justify-content: flex-start;
+	}
+
+}
