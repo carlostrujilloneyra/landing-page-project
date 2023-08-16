@@ -1,5 +1,15 @@
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import './FooterTop.css';
+
+const item = {
+	visible: {
+		opacity: 1,
+	},
+	hidden: {
+		opacity: 0
+	}
+}
 
 export const FooterTop = () => {
 
@@ -11,7 +21,14 @@ export const FooterTop = () => {
 
 	return (
 		<>
-			<div className="container-footer-top container">
+			<motion.div
+				className="container-footer-top container"
+				initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={item}
+        transition={{ duration: 1.8 }}
+			>
 				<h2 className="footer-top-title">Ready to get started?</h2>
 				<div className='container-footer-top__button'>
 					<button
@@ -20,7 +37,7 @@ export const FooterTop = () => {
 						contact us
 					</button>
 				</div>
-			</div>
+			</motion.div>
 		</>
 	)
 }

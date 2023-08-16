@@ -64,7 +64,7 @@ h1{
 
 }
 
-span{
+.main-hero__span{
 	color: var(--redLigth);
 }
 

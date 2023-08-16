@@ -1,0 +1,18 @@
+.main-detail__grid{
+	display: grid;
+	align-items: center;
+	grid-template-columns: 7.2rem 1fr;
+	column-gap: 2.4rem;
+	margin-bottom: 2.8rem;
+}
+
+.icon-benefit{
+	width: 7.2rem;
+	height: 7.2rem;
+	margin-bottom: 0;
+}
+
+.detail-paragraph{
+	font-size: 1.8rem;
+	text-align: start;
+}

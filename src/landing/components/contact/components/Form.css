@@ -1,0 +1,67 @@
+.main-form-contact{
+
+}
+
+.container-input{
+	margin-bottom: 2.4rem;
+}
+
+.main-form__input{
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	border-bottom: .1rem solid var(--colorWhite);
+	color: var(--colorWhite);
+	display: inline-block;
+	font-size: 1.6rem;
+	font-weight: 600;
+	width: 100%;
+	outline: none;
+	padding: .8rem;
+	padding-bottom: 1.6rem;
+	transition: all .4s;
+
+	&:focus::placeholder{
+		opacity: 0;
+		transition: all .4s;
+	}
+
+	&::placeholder{
+		color: #99b8bb;
+		font-size: 1.5rem;
+		transition: all .4s;
+	}
+}
+
+textarea{
+	font-family: 'Livvic', sans-serif;
+	resize: none;
+	height: 11rem;
+}
+
+.main-form__button{
+	background-color: var(--colorWhite);
+	border-radius: 2.4rem;
+	border: none;
+	color: var(--jungleGreen);
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 1.8rem;
+	padding: 1rem 2.4rem;
+	margin-top: 1.6rem;
+	transition: all .5s;
+
+	&:hover{
+		background-color: var(--sacramentGreen);
+		color: var(--colorWhite);
+		transition: all .5s;
+	}
+
+}
+
+.message-length{
+	color: var(--colorWhite);
+	font-weight: 600;
+	font-size: 1.2rem;
+	margin-top: .8rem;
+}
