@@ -1,0 +1,19 @@
+.main-footer__list{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1.2rem;
+	justify-items: center;
+	list-style: none;
+
+	@media (width >= 600px){
+		justify-items: start;
+	}
+
+}
+
+.link-footer{
+	color: var(--colorWhite);
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-decoration: none;
+}

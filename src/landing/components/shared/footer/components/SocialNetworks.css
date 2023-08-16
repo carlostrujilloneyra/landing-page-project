@@ -1,6 +1,9 @@
 .container-social-networks{
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(4, min-content);
+	justify-items: center;
 	justify-content: center;
+	column-gap: 1.6rem;
 
 	@media (width >= 600px){
 		justify-content: flex-end;
@@ -12,7 +15,6 @@
 	cursor: pointer;
 	width: 2.4rem;
 	height: 2.4rem;
-	margin-right: 1.6rem;
 	transition: all .4s;
 
 	&:hover{

@@ -7,7 +7,7 @@
 	}
 
 	@media (width >= 1024px){
-		padding: 4.8rem 10rem;
+		padding: 5.4rem 10rem;
 	}
 
 }
@@ -34,31 +34,6 @@
 		row-gap: 4.8rem;
 	}
 
-}
-
-.main-logo__footer{
-	width: 9.6rem;
-	height: 2.4rem;
-
-	@media (width >= 1024px){
-		width: 16rem;
-		height: 4rem;
-	}
-
-}
-
-.main-footer__list{
-	display: flex;
-	justify-content: center;
-	list-style: none;
-}
-
-.link-footer{
-	color: var(--colorWhite);
-	font-size: 1.5rem;
-	font-weight: 600;
-	text-decoration: none;
-	margin-right: 2.4rem;
 }
 
 .main-footer__sp{

@@ -1,0 +1,10 @@
+.main-logo__footer{
+	width: 9.6rem;
+	height: 2.4rem;
+
+	@media (width >= 1024px){
+		width: 16rem;
+		height: 4rem;
+	}
+
+}

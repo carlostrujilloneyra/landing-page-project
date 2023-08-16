@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { SocialNetworks } from "./components";
+import { LogoFooter, NavFooter, SocialNetworks } from "./components";
 import "./Footer.css";
 import { motion } from "framer-motion";
 
@@ -25,33 +25,11 @@ export const Footer = () => {
       >
         <div className="main-footer__two-columns">
           <div className="main-footer__fp">
-            <img
-              className="main-logo__footer"
-              src="/assets/logo.svg"
-              alt="logo-footer"
-            />
 
-            <nav>
-              <ul className="main-footer__list">
-                <li>
-                  <Link to="/" className="link-footer">
-                    home
-                  </Link>
-                </li>
+            <LogoFooter />
 
-                <li>
-                  <Link to="/about" className="link-footer">
-                    about
-                  </Link>
-                </li>
+            <NavFooter />
 
-                <li>
-                  <Link to="/contact" className="link-footer">
-                    contact
-                  </Link>
-                </li>
-              </ul>
-            </nav>
 					</div>
 					
 					<div className="main-footer__sp">
