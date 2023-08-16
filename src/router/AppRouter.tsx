@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Header } from "../landing/components/shared";
+import { Footer, Header } from "../landing/components/shared";
 import { AboutPage, ContactPage, HomePage } from "../landing/pages";
 import { ScrollTop } from "../landing/components/shared/ScrollTop";
 import { AnimatePresence } from "framer-motion";
@@ -21,6 +21,9 @@ export const AppRouter = () => {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </AnimatePresence>
+
+      <Footer />
+
     </>
   );
 };
