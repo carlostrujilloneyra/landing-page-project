@@ -2,7 +2,7 @@
 Proyecto del lado Frontend realizado con React y Typescript.
 
 <p align="center">
-  <img src="https://github.com/carlostrujilloneyra/landing-page-project/assets/50873002/93d76253-7f37-4e99-a6f7-51bdb2913c94" alt="screenshot" width="100%">
+  <img src="https://github.com/carlostrujilloneyra/landing-page-project/assets/50873002/8e1da9f4-5797-43f6-8b3d-edcf4a66b676" alt="screenshot" width="100%">
 </p>
 
 ---
