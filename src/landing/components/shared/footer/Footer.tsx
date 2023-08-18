@@ -15,7 +15,7 @@ export const Footer = () => {
   return (
     <>
       <motion.footer
-        className="main-footer"
+        className="main-footer container"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
