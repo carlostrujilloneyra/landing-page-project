@@ -7,12 +7,12 @@ import './Main.css';
 
 export const Main = () => {
 
-	const { value } = useContext(StateContext);
+	const { menuOpen } = useContext(StateContext);
 
 	return (
 		<>
 			<motion.main
-				className={`main container ${value ? 'main--showOpacity' : ''} `}
+				className={`main container ${menuOpen ? 'main--showOpacity' : ''} `}
 			>
 				<h2 className='subtitle-main'>Build & manage distributed teams like no one else.</h2>
 
