@@ -2,7 +2,7 @@
 Proyecto del lado Frontend realizado con React y Typescript.
 
 <p align="center">
-  <img src="https://github.com/carlostrujilloneyra/landing-page-project/assets/50873002/4262afeb-2c86-4dc7-aa79-b213c0bbaa02" alt="screenshot" width="100%">
+  <img src="https://github.com/carlostrujilloneyra/landing-page-project/assets/50873002/93d76253-7f37-4e99-a6f7-51bdb2913c94" alt="screenshot" width="100%">
 </p>
 
 ---
@@ -15,6 +15,4 @@ Proyecto del lado Frontend realizado con React y Typescript.
 
 ## Tecnologías
 - HTML, CSS, TypeScript, React, Motion (para animaciones).
-
-
 
