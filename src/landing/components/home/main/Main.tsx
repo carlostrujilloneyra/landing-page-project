@@ -1,13 +1,18 @@
-import { motion } from 'framer-motion';
-import { infoMainArray } from '../../../data/home-info-main';
 import { Benefit } from './components';
+import { useContext } from 'react';
+import { StateContext } from '../../../context/StateContext';
+import { infoMainArray } from '../../../data/home-info-main';
+import { motion } from 'framer-motion';
 import './Main.css';
 
 export const Main = () => {
+
+	const { value } = useContext(StateContext);
+
 	return (
 		<>
 			<motion.main
-				className='main container'
+				className={`main container ${value ? 'main--showOpacity' : ''} `}
 			>
 				<h2 className='subtitle-main'>Build & manage distributed teams like no one else.</h2>
 

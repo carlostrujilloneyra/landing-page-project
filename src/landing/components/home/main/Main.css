@@ -5,6 +5,7 @@
 	position: relative;
 	overflow: hidden;
 
+
 	&::before{
 		position: absolute;
 		background-image: url('/assets/bg-before-main-home.svg');
@@ -14,6 +15,18 @@
 		height: 24.4rem;
 		top: 0;
 		right: -10rem;
+	}
+
+	&::after{
+		content: '';
+		position: absolute;
+		background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50));
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		transition: all .5s;
 	}
 
 	@media (width >= 600px){
@@ -32,6 +45,13 @@
 
 	}
 
+}
+
+.main--showOpacity{
+	&::after{
+		opacity: 1;
+		transition: all .5s;
+	}
 }
 
 .subtitle-main{

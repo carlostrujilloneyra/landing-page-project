@@ -4,6 +4,7 @@
 	width: 12.8rem;
 	height: 3.2rem;
 	margin-bottom: 0;
+	position: relative;
 
 	@media (width >= 1024px){
 		width: 16rem;

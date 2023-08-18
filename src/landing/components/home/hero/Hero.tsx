@@ -1,4 +1,6 @@
 import { cubicBezier, motion } from "framer-motion";
+import { useContext } from "react";
+import { StateContext } from "../../../context/StateContext";
 import "./Hero.css";
 
 const container = {
@@ -22,9 +24,14 @@ const container = {
 };
 
 export const Hero = () => {
+
+  const { menuOpen } = useContext(StateContext);
+
   return (
     <>
-      <div className="container-main-hero container">
+      <div
+        className={`container-main-hero container 
+        ${menuOpen ? 'container-main-hero--showOpacity' : ''}`}>
         <motion.div
           variants={container}
           initial="hidden"

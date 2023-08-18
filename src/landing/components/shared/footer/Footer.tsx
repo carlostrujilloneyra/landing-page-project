@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import { LogoFooter, NavFooter, SocialNetworks } from "./components";
-import "./Footer.css";
 import { motion } from "framer-motion";
+import "./Footer.css";
 
 const item = {
 	visible: {
