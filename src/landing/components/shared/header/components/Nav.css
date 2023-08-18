@@ -45,6 +45,10 @@
 		width: 65%;
 	}
 
+	@media (width >= 1024px){
+		justify-content: space-between;
+	}
+
 }
 
 .showNav{
